@@ -1,0 +1,22 @@
+{
+  "name": "oson.annotation.js",
+  "version": "1.0.0",
+  "description": "a compiler for language \"oson.annotation\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sstshenshutao/oson.annotation.js.git"
+  },
+  "author": "shutao shen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sstshenshutao/oson.annotation.js/issues"
+  },
+  "homepage": "https://github.com/sstshenshutao/oson.annotation.js#readme",
+  "dependencies": {
+    "jison": "^0.4.18"
+  }
+}

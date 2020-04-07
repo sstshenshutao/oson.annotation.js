@@ -39,3 +39,7 @@ function printRun(filename) {
 //test
 
 printRun('a.annotation')
+
+//generate parser
+let genParser = parser.generate();
+console.log("genParser",genParser);

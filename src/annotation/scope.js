@@ -227,4 +227,4 @@ class Node {
 module.exports = Node;
 
 // console.log(Node.getOriValue("\"@"));
-console.log(JSON.parse("\"aa\""))
+// console.log(JSON.parse("\"aa\""))
