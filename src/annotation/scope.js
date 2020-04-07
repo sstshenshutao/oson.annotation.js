@@ -190,19 +190,19 @@ class Node {
         if (optional['optionalPerlRegex']) {
             node['pattern'] = optional['optionalPerlRegex'];
         }
-        if (optional['optionalExtraProperties']) {
-            // clearNode
-            for (let k in node) {
-                node[k] = undefined;
-            }
-            // console.log("-----------------------------");
-            // console.log(optional['optionalExtraProperties']);
-            // console.log("-----------------------------");
-            let newNode = optional['optionalExtraProperties'];
-            for (let k in newNode) {
-                node[k] = newNode[k];
-            }
-        }
+        // if (optional['optionalExtraProperties']) {
+        //     // clearNode
+        //     for (let k in node) {
+        //         node[k] = undefined;
+        //     }
+        //     // console.log("-----------------------------");
+        //     // console.log(optional['optionalExtraProperties']);
+        //     // console.log("-----------------------------");
+        //     let newNode = optional['optionalExtraProperties'];
+        //     for (let k in newNode) {
+        //         node[k] = newNode[k];
+        //     }
+        // }
         if (optional['optionalTypeTuple']) {
             node['value'] = optional['optionalTypeTuple'];
         }

@@ -38,7 +38,7 @@ function printRun(filename) {
 
 //test
 
-printRun('a.annotation')
+// printRun('a.annotation')
 
 //generate parser
 let genParser = parser.generate();
