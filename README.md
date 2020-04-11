@@ -17,6 +17,9 @@ For more details, see [oson.annotation/doc.md](https://github.com/sstshenshutao/
 ## how to use?
 This public package expose the function parse  
 
+via npm:  
+>npm i oson.annotation.js.test  
+
 >let parse = require('oson.annotation.js.test');  
 console.log(parse("@String"));
 
