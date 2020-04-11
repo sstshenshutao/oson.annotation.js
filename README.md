@@ -15,5 +15,9 @@ oson.annotation can be compiled to a [JSON](https://www.json.org/json-zh.html), 
 For more details, see [oson.annotation/doc.md](https://github.com/sstshenshutao/oson.annotation/blob/master/README.md)  
   
 ## how to use?
-An example: "src/annotation/annotation-test.js"  
-You can also use the compiled javascript without the dependency "jison", see "dist/"
+This public package expose the function parse  
+
+>let parse = require('oson.annotation.js.test');  
+console.log(parse("@String"));
+
+

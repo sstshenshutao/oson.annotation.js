@@ -1,6 +1,6 @@
 {
-  "name": "oson.annotation.js",
-  "version": "1.0.0",
+  "name": "oson.annotation.js.test",
+  "version": "1.0.1",
   "description": "a compiler for language \"oson.annotation\"",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,5 @@
   },
   "homepage": "https://github.com/sstshenshutao/oson.annotation.js#readme",
   "dependencies": {
-    "jison": "^0.4.18"
   }
 }
